@@ -1662,6 +1662,9 @@
 					E2A2AD201A9E9058002E9F26 = {
 						DevelopmentTeam = VS75428PD6;
 					};
+					E2AA799F1B33B8AE007CEF29 = {
+						DevelopmentTeam = 6TX2SXNQ8D;
+					};
 				};
 			};
 			buildConfigurationList = 5C0F1AD115FD7183004869D0 /* Build configuration list for PBXProject "MobileFieldData" */;
@@ -3181,8 +3184,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -3195,8 +3198,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "Warrumbungle copy";
-				PROVISIONING_PROFILE = "54e1269a-e4df-4187-9aec-6545ef8c4df7";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "54e1269a-e4df-4187-9aec-6545ef8c4df7";
+				PROVISIONING_PROFILE = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -3209,9 +3212,9 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -3223,9 +3226,9 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "Warrumbungle copy";
-				PROVISIONING_PROFILE = "54e1269a-e4df-4187-9aec-6545ef8c4df7";
-				"PROVISIONING_PROFILE[sdk=*]" = "54e1269a-e4df-4187-9aec-6545ef8c4df7";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "54e1269a-e4df-4187-9aec-6545ef8c4df7";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -3239,8 +3242,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -3252,8 +3255,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "Warrumbungle copy";
-				PROVISIONING_PROFILE = "54e1269a-e4df-4187-9aec-6545ef8c4df7";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "54e1269a-e4df-4187-9aec-6545ef8c4df7";
+				PROVISIONING_PROFILE = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
