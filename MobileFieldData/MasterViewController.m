@@ -33,15 +33,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        //self.title = NSLocalizedString(@"Citizen Science", @"Citizen Science");
         self.title = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
         preferences = [[Preferences alloc]init];
-        
-/*        NSString* backgroundImage = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Background Image"];
-        if (!backgroundImage) {
-            backgroundImage = @"background_image.jpg";
-        }
-*/        
         if([FD_Util getBackgroundColor]){
             self.view.backgroundColor = [FD_Util getBackgroundColor];
         }
@@ -63,21 +56,6 @@
 {
     [super viewDidLoad];
     
-	// Do any additional setup after loading the view, typically from a nib.
-    //self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
-    //UIBarButtonItem *refreshButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refreshFieldData:)];
-    //self.navigationItem.rightBarButtonItem = refreshButton;
-    
-//    UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0,0, self.tableView.frame.size.width, 30)];
-//    header.backgroundColor = [UIColor clearColor];
-//    
-//    tableHeader = [[UILabel alloc] initWithFrame:CGRectMake(10,0,self.tableView.frame.size.width-20, 30)];
-//    tableHeader.backgroundColor = [UIColor clearColor];
-//    [header addSubview:tableHeader];
-//    
-//    self.tableView.tableHeaderView = header;
-//    
 }
 
 - (void)viewDidUnload
@@ -93,23 +71,7 @@
 
 - (void)refreshFieldData:(id)sender
 {
-    /*
-    NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
-    NSEntityDescription *entity = [[self.fetchedResultsController fetchRequest] entity];
-    NSManagedObject *newManagedObject = [NSEntityDescription insertNewObjectForEntityForName:[entity name] inManagedObjectContext:context];
-    
-    // If appropriate, configure the new managed object.
-    // Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
-    [newManagedObject setValue:[NSDate date] forKey:@"timeStamp"];
-    
-    // Save the context.
-    NSError *error = nil;
-    if (![context save:&error]) {
-         // Replace this implementation with code to handle the error appropriately.
-         // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
-        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-        abort();
-    }*/
+ 
 }
 
 #pragma mark - Table View
@@ -125,7 +87,7 @@
         return surveys.count;
     }
     else if (section ==1) {
-        return 3;
+        return 2;
     }
     else if (section == 2) {
         return 2;
@@ -207,23 +169,6 @@
     return headerView;
 }
 
-
-//- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
-//    
-//    UIView* view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 400, 30)];
-//    UILabel* label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 400, 30)];
-//    [view addSubview:label];
-//    label.text = @"Testing";
-//    return section == 0 ? view : nil;
-//}
-//
-//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-//    return section == 0 ? 30.0f : 0.0;
-//}
-//
-
-
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.section == 0) {
@@ -234,11 +179,10 @@
             case 0:
                 [self openSavedRecordsPage];
                 break;
-            case 1:
+            /*case 1:
                 [self openWeblink:indexPath];
-                
-                break;
-            case 2:
+                break;*/
+            case 1:
                 [self openSpeciesPage];
                 break;
             default:
@@ -306,13 +250,11 @@
 {
     [self.tableView deselectRowAtIndexPath:indexPath animated:NO];
    
-    NSString* path = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Portal path"];
-
-   // NSString *urlString = [NSString stringWithFormat:@"http://root-uat.ala.org.au%@/map/mySightings.htm", path];
-    
+/*  NSString* path = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Portal path"];
     NSString *urlString = [NSString stringWithFormat:@"http://root.ala.org.au%@/review/sightings/advancedReview.htm?u=%@", path, [preferences getUserId]];
     NSURL *url = [NSURL URLWithString:urlString];
     [[UIApplication sharedApplication] openURL:url];
+ */   
 }
 
 - (void)openLoginPage
@@ -355,10 +297,10 @@
             case 0:
                 cell.textLabel.text = @"Saved Records";
                 break;
-            case 1:
+            /*case 1:
                 cell.textLabel.text = @"View My Records Online";
-                break;
-            case 2:
+                break;*/
+            case 1:
                 cell.textLabel.text = @"Species List";
                 break;
             default:

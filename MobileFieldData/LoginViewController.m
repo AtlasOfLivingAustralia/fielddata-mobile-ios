@@ -133,12 +133,13 @@
 {
     if ([preferences getFieldDataSessionKey]) {
         [self dismissModalViewControllerAnimated:YES];
-    } else {
+    }
+    /*else {
         NSString* path = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Portal path"];
 
         NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://root.ala.org.au%@/vanilla/usersignup.htm", path]];
         [[UIApplication sharedApplication] openURL:url];
-    }
+    }*/
 }
 
 - (void)handleLoginResponse:(RFResponse*)response

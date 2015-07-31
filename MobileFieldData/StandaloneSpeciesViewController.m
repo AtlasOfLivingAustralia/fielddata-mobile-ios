@@ -40,11 +40,13 @@
     
     [self.tableView deselectRowAtIndexPath:indexPath animated:NO];
  
+    /*
     Species *species = [speciesLoader objectAtIndexPath:indexPath];
     NSString *urlString = [NSString stringWithFormat:@"%@survey/fieldguide/%@", [preferences getFieldDataURL], species.taxonId];
     
     NSURL *url = [NSURL URLWithString:urlString];
     [[UIApplication sharedApplication] openURL:url];
+    */
     
 }
 
