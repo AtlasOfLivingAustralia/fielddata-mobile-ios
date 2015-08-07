@@ -11,6 +11,7 @@
 #import <AssetsLibrary/AssetsLibrary.h>
 #import "FileService.h"
 #import "UIImage+Resize.h"
+#import "FD_Util.h"
 
 @implementation ImageCell
 
@@ -22,7 +23,7 @@
     if (self) {
         multiPhotoEnabled = 0;
         // Initialization code
-        cameraImage=[[UIImageView alloc] initWithFrame:CGRectMake(10, 30, 48, 48)];
+        cameraImage=[[UIImageView alloc] initWithFrame:CGRectMake(10, 30 + SURVEY_HEIGHT_OFFSET, 48, 48)];
         cameraImage.autoresizingMask = ( UIViewAutoresizingNone );
         cameraImage.autoresizesSubviews = NO;
         [self.contentView addSubview:cameraImage];
@@ -35,14 +36,14 @@
         startCamera = [UIButton buttonWithType:UIButtonTypeCustom];
         [startCamera addTarget:self action:@selector(showCameraUI:) forControlEvents:UIControlEventTouchUpInside];
         NSInteger width = 48;
-        startCamera.frame = CGRectMake(self.bounds.size.width-30-width, 30, 48, 48);
+        startCamera.frame = CGRectMake(self.bounds.size.width-30-width, 30 + SURVEY_HEIGHT_OFFSET, 48, 48);
         [startCamera setImage:cameraBtn forState:UIControlStateNormal];
         [self.contentView addSubview:startCamera];
         
         UIImage *galleryBtn = [UIImage imageNamed:@"3.png"];
         photoLibrary = [UIButton buttonWithType:UIButtonTypeCustom];
         [photoLibrary addTarget:self action:@selector(showPhotoLibraryUI:) forControlEvents:UIControlEventTouchUpInside];
-        photoLibrary.frame = CGRectMake(self.bounds.size.width-30-100, 30, 48, 48);
+        photoLibrary.frame = CGRectMake(self.bounds.size.width-30-100, 30 + SURVEY_HEIGHT_OFFSET, 48, 48);
         [photoLibrary setImage:galleryBtn forState:UIControlStateNormal];
         [self.contentView addSubview:photoLibrary];
 

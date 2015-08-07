@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+#define SURVEY_HEIGHT_OFFSET 10
 @interface FD_Util : NSObject
 + (UIColor *) getBackgroundColor;
 @end

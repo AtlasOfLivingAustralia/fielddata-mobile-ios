@@ -8,6 +8,7 @@
 
 #import "SingleSelectCell.h"
 #import "SurveyAttributeOption.h"
+#import "FD_Util.h"
 
 @implementation SingleSelectCell
 

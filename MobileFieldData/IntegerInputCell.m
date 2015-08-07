@@ -7,6 +7,7 @@
 //
 
 #import "IntegerInputCell.h"
+#import "FD_Util.h"
 
 @implementation IntegerInputCell
 
@@ -17,7 +18,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         
-        inputField = [[UITextField alloc] initWithFrame:CGRectMake(10, 35, 100, 28)];
+        inputField = [[UITextField alloc] initWithFrame:CGRectMake(10, 35 + SURVEY_HEIGHT_OFFSET, 100, 28)];
         inputField.borderStyle = UITextBorderStyleRoundedRect;
         inputField.keyboardType = UIKeyboardTypeDecimalPad;
         inputField.delegate = self;

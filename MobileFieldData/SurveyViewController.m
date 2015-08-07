@@ -444,15 +444,16 @@
             inputCell.label.opaque = YES;
             inputCell.label.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.7f];
             inputCell.label.textColor = [UIColor whiteColor];
-            
         }
+ 
         else {
             inputCell.label.opaque = NO;
             inputCell.label.backgroundColor = [[UIColor alloc] initWithRed:71.0/255.0f green:71.0/255.0f blue:72.0/255.0f alpha:1.0f];
         }
         inputCell.label.textColor = [UIColor whiteColor];
-//        [inputCell.label setAutoresizesSubviews:YES];
-//        [inputCell.label setAutoresizingMask: UIViewAutoresizingFlexibleWidth]; //UIViewAutoresizingFlexibleWidth
+        [inputCell.label setAutoresizesSubviews:YES];
+        [inputCell.label setAutoresizingMask: UIViewAutoresizingFlexibleWidth];
+ 
     }
     
     
@@ -473,21 +474,21 @@
     }
     SurveyAttribute* attribute = [self attributeForPath:indexPath];
     if ([attribute.typeCode isEqualToString:kMultiSelect]) {
-        return 200;
+        return 200 + SURVEY_HEIGHT_OFFSET;
     } else if ([attribute.typeCode isEqualToString:kImage]) {
-        return 90;
+        return 90 + SURVEY_HEIGHT_OFFSET;
         
     } else if ([attribute.typeCode isEqualToString:kSpeciesRP]) {
-        return 75;
+        return 75 + SURVEY_HEIGHT_OFFSET;
     } else if ([attribute.typeCode isEqualToString:kPoint]) {
-        return 120;
+        return 120 + SURVEY_HEIGHT_OFFSET;
     } else if ([attribute.typeCode isEqualToString:kStringWithValidValues] ||
                [attribute.typeCode isEqualToString:kMultiCheckbox] ||
                [attribute.typeCode isEqualToString:kWhen] ||
                [attribute.typeCode isEqualToString:kDate]) {
-        return 60;
+        return 60 + SURVEY_HEIGHT_OFFSET;
     } else {
-        return 75;
+        return 75 + SURVEY_HEIGHT_OFFSET;
     }
 }
 
@@ -502,11 +503,9 @@
         cell.textLabel.text = survey.name;
         
         cell.detailTextLabel.text = survey.surveyDescription;
-        cell.detailTextLabel.numberOfLines = 2;
+        cell.detailTextLabel.numberOfLines = 4;
         
         cell.backgroundColor = [UIColor colorWithRed:206 green:243 blue:255 alpha:0];
-        
-        
     }
     return cell;
 }

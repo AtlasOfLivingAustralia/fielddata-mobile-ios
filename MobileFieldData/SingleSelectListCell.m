@@ -30,7 +30,7 @@
         NSArray *sortDescriptors = [NSArray arrayWithObject:[NSSortDescriptor sortDescriptorWithKey:@"weight" ascending:YES]];
         options = [o sortedArrayUsingDescriptors:sortDescriptors];
         
-        self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        //self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         
     }
     return self;

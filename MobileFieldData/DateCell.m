@@ -1,6 +1,7 @@
 #import <UIKit/UIKit.h>
 #import "DateCell.h"
 #import "Record.h"
+#import "FD_Util.h"
 
 @interface DateCell() {
 
@@ -20,7 +21,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         
-        dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 20, self.bounds.size.width-35, 30)];
+        dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 20 + SURVEY_HEIGHT_OFFSET, self.bounds.size.width-35, 30)];
         dateLabel.font = [UIFont systemFontOfSize:12.0];
         dateLabel.text = @"";
         

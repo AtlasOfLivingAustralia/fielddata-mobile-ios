@@ -7,6 +7,7 @@
 //
 
 #import "TextInputCell.h"
+#import "FD_Util.h"
 
 @implementation TextInputCell
 
@@ -18,7 +19,7 @@
     if (self) {
         
         
-        inputField = [[UITextField alloc] initWithFrame:CGRectMake(10, 35, self.bounds.size.width-20, 28)];
+        inputField = [[UITextField alloc] initWithFrame:CGRectMake(10, 35 + SURVEY_HEIGHT_OFFSET, self.bounds.size.width-20, 28)];
         inputField.borderStyle = UITextBorderStyleRoundedRect;
         inputField.delegate = self;
         

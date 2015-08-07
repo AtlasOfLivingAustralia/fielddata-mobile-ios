@@ -10,6 +10,7 @@
 #import "AlertService.h"
 #import "SurveyViewController.h"
 #import "Constant.h"
+#import "FD_Util.h"
 
 @implementation LocationCell
 
@@ -21,14 +22,14 @@
     
     if (self) {
         self.label.text = @"Location *";
-        polygon = [[UILabel alloc] initWithFrame:CGRectMake(100, 66, 250, 24)];
+        polygon = [[UILabel alloc] initWithFrame:CGRectMake(100, 76 + SURVEY_HEIGHT_OFFSET, 250, 24)];
         polygon.font = [UIFont systemFontOfSize:12.0];
         polygon.text = @"Total polygon points : 0" ;
         
         showMap = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         [showMap setTitle:@"Select locations using Map >" forState:UIControlStateNormal];
         [showMap addTarget:self action:@selector(showMap:) forControlEvents:UIControlEventTouchUpInside];
-        showMap.frame = CGRectMake(10, 24, 300, 44);
+        showMap.frame = CGRectMake(10, 34 + SURVEY_HEIGHT_OFFSET, 300, 44);
 
         [self.contentView addSubview:showMap];
         [self.contentView addSubview:polygon];
@@ -40,17 +41,17 @@
 {
     self.label.text = @"Location *";
     
-    latitude = [[UILabel alloc] initWithFrame:CGRectMake(10, 24, 200, 24)];
+    latitude = [[UILabel alloc] initWithFrame:CGRectMake(10, 24 + SURVEY_HEIGHT_OFFSET, 200, 24)];
     latitude.font = [UIFont systemFontOfSize:12.0];
     latitude.text = @"Latitude: Not Found";
     [self.contentView addSubview:latitude];
     
-    longitude = [[UILabel alloc] initWithFrame:CGRectMake(10, 48, 200, 24)];
+    longitude = [[UILabel alloc] initWithFrame:CGRectMake(10, 48 + SURVEY_HEIGHT_OFFSET, 200, 24)];
     longitude.font = [UIFont systemFontOfSize:12.0];
     longitude.text = @"Longitude: Not Found";
     [self.contentView addSubview:longitude];
     
-    accuracy = [[UILabel alloc] initWithFrame:CGRectMake(10, 72, 200, 24)];
+    accuracy = [[UILabel alloc] initWithFrame:CGRectMake(10, 72 + SURVEY_HEIGHT_OFFSET, 200, 24)];
     accuracy.font = [UIFont systemFontOfSize:12.0];
     accuracy.text = @"Accuracy: NA";
     [self.contentView addSubview:accuracy];
@@ -59,14 +60,14 @@
     startGPS = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [startGPS setTitle:@"Find Me" forState:UIControlStateNormal];
     [startGPS addTarget:self action:@selector(findCurrentLocation:) forControlEvents:UIControlEventTouchUpInside];
-    startGPS.frame = CGRectMake(200, 10, 100, 44);
+    startGPS.frame = CGRectMake(200, 20 + SURVEY_HEIGHT_OFFSET, 100, 44);
     //[startGPS setImage:gpsImg forState:UIControlStateNormal];
     [self.contentView addSubview:startGPS];
     
     showMap = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [showMap setTitle:@"Map" forState:UIControlStateNormal];
     [showMap addTarget:self action:@selector(showMap:) forControlEvents:UIControlEventTouchUpInside];
-    showMap.frame = CGRectMake(200, 64, 100, 44);
+    showMap.frame = CGRectMake(200, 64 + SURVEY_HEIGHT_OFFSET, 100, 44);
     [self.contentView addSubview:showMap];
 
 }

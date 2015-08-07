@@ -386,6 +386,129 @@
 		E242077A1ACA207C00DB7678 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E24207761ACA207C00DB7678 /* 3.png */; };
 		E242077B1ACA207C00DB7678 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E24207761ACA207C00DB7678 /* 3.png */; };
 		E242077C1ACA207C00DB7678 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E24207761ACA207C00DB7678 /* 3.png */; };
+		E2512BA31B6B28370007E332 /* FD_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E201B0521AA6864B00026FA5 /* FD_Util.m */; };
+		E2512BA41B6B28370007E332 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E28CF53F18DFFEC1008C3328 /* Annotation.m */; };
+		E2512BA51B6B28370007E332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1AE915FD7184004869D0 /* main.m */; };
+		E2512BA61B6B28370007E332 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18561AC0DCAC002E2E1A /* MKAnnotationView+WebCache.m */; };
+		E2512BA71B6B28370007E332 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18581AC0DCAC002E2E1A /* NSData+ImageContentType.m */; };
+		E2512BA81B6B28370007E332 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D185A1AC0DCAC002E2E1A /* SDImageCache.m */; };
+		E2512BA91B6B28370007E332 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D185C1AC0DCAC002E2E1A /* SDWebImageCompat.m */; };
+		E2512BAA1B6B28370007E332 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D185E1AC0DCAC002E2E1A /* SDWebImageDecoder.m */; };
+		E2512BAB1B6B28370007E332 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18601AC0DCAC002E2E1A /* SDWebImageDownloader.m */; };
+		E2512BAC1B6B28370007E332 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18621AC0DCAC002E2E1A /* SDWebImageDownloaderOperation.m */; };
+		E2512BAD1B6B28370007E332 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18641AC0DCAC002E2E1A /* SDWebImageManager.m */; };
+		E2512BAE1B6B28370007E332 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18671AC0DCAC002E2E1A /* SDWebImagePrefetcher.m */; };
+		E2512BAF1B6B28370007E332 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18691AC0DCAC002E2E1A /* UIButton+WebCache.m */; };
+		E2512BB01B6B28370007E332 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D186B1AC0DCAC002E2E1A /* UIImage+GIF.m */; };
+		E2512BB11B6B28370007E332 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D186D1AC0DCAC002E2E1A /* UIImage+MultiFormat.m */; };
+		E2512BB21B6B28370007E332 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D186F1AC0DCAC002E2E1A /* UIImage+WebP.m */; };
+		E2512BB31B6B28370007E332 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18711AC0DCAC002E2E1A /* UIImageView+HighlightedWebCache.m */; };
+		E2512BB41B6B28370007E332 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18731AC0DCAC002E2E1A /* UIImageView+WebCache.m */; };
+		E2512BB51B6B28370007E332 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E26D18751AC0DCAC002E2E1A /* UIView+WebCacheOperation.m */; };
+		E2512BB61B6B28370007E332 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1AED15FD7184004869D0 /* AppDelegate.m */; };
+		E2512BB71B6B28370007E332 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1AF315FD7184004869D0 /* MasterViewController.m */; };
+		E2512BB81B6B28370007E332 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1B2D15FDBAD5004869D0 /* LoginViewController.m */; };
+		E2512BB91B6B28370007E332 /* RFRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1CE115FEF2EC004869D0 /* RFRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2512BBA1B6B28370007E332 /* RFResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1CE315FEF2EC004869D0 /* RFResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2512BBB1B6B28370007E332 /* RFService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1CE515FEF2EC004869D0 /* RFService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2512BBC1B6B28370007E332 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1CFB1600191F004869D0 /* Preferences.m */; };
+		E2512BBD1B6B28370007E332 /* AlertService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1D031600223C004869D0 /* AlertService.m */; };
+		E2512BBE1B6B28370007E332 /* FieldDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1D0616004752004869D0 /* FieldDataService.m */; };
+		E2512BBF1B6B28370007E332 /* Species.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1D091602B32C004869D0 /* Species.m */; };
+		E2512BC01B6B28370007E332 /* SpeciesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1D0E1602F674004869D0 /* SpeciesListViewController.m */; };
+		E2512BC11B6B28370007E332 /* Survey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1D161606F469004869D0 /* Survey.m */; };
+		E2512BC21B6B28370007E332 /* SurveyAttributeOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1D191606F4E0004869D0 /* SurveyAttributeOption.m */; };
+		E2512BC31B6B28370007E332 /* SurveyAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1D1C1606F4E1004869D0 /* SurveyAttribute.m */; };
+		E2512BC41B6B28370007E332 /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C593564160A9FEC001547F3 /* SurveyViewController.m */; };
+		E2512BC51B6B28370007E332 /* TextInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C593567160AAE64001547F3 /* TextInputCell.m */; };
+		E2512BC61B6B28370007E332 /* UIAlertTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C59356E160AD892001547F3 /* UIAlertTableView.m */; };
+		E2512BC71B6B28370007E332 /* IntegerInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C593576160C2669001547F3 /* IntegerInputCell.m */; };
+		E2512BC81B6B28370007E332 /* SurveyInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C593579160C27AB001547F3 /* SurveyInputCell.m */; };
+		E2512BC91B6B28370007E332 /* MultiSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C59357C16112BD5001547F3 /* MultiSelectCell.m */; };
+		E2512BCA1B6B28370007E332 /* SingleSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C59357E16116EFF001547F3 /* SingleSelectCell.m */; };
+		E2512BCB1B6B28370007E332 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5935821613CACB001547F3 /* ImageCell.m */; };
+		E2512BCC1B6B28370007E332 /* SpeciesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C59358E16155DA0001547F3 /* SpeciesCell.m */; };
+		E2512BCD1B6B28370007E332 /* LocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BD1FD161A7DFC001FEABD /* LocationCell.m */; };
+		E2512BCE1B6B28370007E332 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BD201161AAEF7001FEABD /* MBProgressHUD.m */; };
+		E2512BCF1B6B28370007E332 /* RecordAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C070419161D0D97001875F6 /* RecordAttribute.m */; };
+		E2512BD01B6B28370007E332 /* SavedRecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C07041D161D4823001875F6 /* SavedRecordsViewController.m */; };
+		E2512BD11B6B28370007E332 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C070420161D5BB3001875F6 /* Record.m */; };
+		E2512BD21B6B28370007E332 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B8AEF1165EE2C700FD472C /* UIImage+Alpha.m */; };
+		E2512BD31B6B28370007E332 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B8AEF2165EE2C700FD472C /* UIImage+Resize.m */; };
+		E2512BD41B6B28370007E332 /* FileService.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B8AEFE165EE2C700FD472C /* FileService.m */; };
+		E2512BD51B6B28370007E332 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B8AF00165EE2C700FD472C /* UIImage+RoundedCorner.m */; };
+		E2512BD61B6B28370007E332 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B8AF07165EE2C700FD472C /* NSData+Base64.m */; };
+		E2512BD71B6B28370007E332 /* SelectionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B8AF211664882300FD472C /* SelectionListViewController.m */; };
+		E2512BD81B6B28370007E332 /* SingleSelectListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C2DA24166C5F7400D77905 /* SingleSelectListCell.m */; };
+		E2512BD91B6B28370007E332 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A93B0169F9BFD009F060D /* MapViewController.m */; };
+		E2512BDA1B6B28370007E332 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A93B5169FB7C7009F060D /* MapAnnotation.m */; };
+		E2512BDB1B6B28370007E332 /* DateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A93BF16A7CF73009F060D /* DateCell.m */; };
+		E2512BDC1B6B28370007E332 /* SpeciesTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A93D016B21839009F060D /* SpeciesTableCell.m */; };
+		E2512BDD1B6B28370007E332 /* SpeciesSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE6AB516B745B1009495A1 /* SpeciesSelectionViewController.m */; };
+		E2512BDE1B6B28370007E332 /* LabelledSpeciesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE6AB816B7950F009495A1 /* LabelledSpeciesCell.m */; };
+		E2512BDF1B6B28370007E332 /* RecordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE6B7D16C08C0D009495A1 /* RecordValidator.m */; };
+		E2512BE01B6B28370007E332 /* ValidationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE6B8016C09158009495A1 /* ValidationResult.m */; };
+		E2512BE11B6B28370007E332 /* StandaloneSpeciesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B2D20016D1DE0600734E1A /* StandaloneSpeciesViewController.m */; };
+		E2512BE21B6B28370007E332 /* SpeciesGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1198E30316D47997005A1BF6 /* SpeciesGroup.m */; };
+		E2512BE31B6B28370007E332 /* MarginLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1198E30916D5A5A8005A1BF6 /* MarginLabel.m */; };
+		E2512BE41B6B28370007E332 /* MobileFieldData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 113DC999172E01F600A90369 /* MobileFieldData.xcdatamodeld */; };
+		E2512BE51B6B28370007E332 /* SurveyDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DC9A1173335A500A90369 /* SurveyDownloadController.m */; };
+		E2512BE71B6B28370007E332 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113DC8CA1727C1DC00A90369 /* ImageIO.framework */; };
+		E2512BE81B6B28370007E332 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112A93B7169FC190009F060D /* MapKit.framework */; };
+		E2512BE91B6B28370007E332 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3BD1F9161A7982001FEABD /* CoreLocation.framework */; };
+		E2512BEA1B6B28370007E332 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5935871614214F001547F3 /* AssetsLibrary.framework */; };
+		E2512BEB1B6B28370007E332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0F1ADB15FD7184004869D0 /* UIKit.framework */; };
+		E2512BEC1B6B28370007E332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0F1ADD15FD7184004869D0 /* Foundation.framework */; };
+		E2512BED1B6B28370007E332 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0F1ADF15FD7184004869D0 /* CoreGraphics.framework */; };
+		E2512BEE1B6B28370007E332 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0F1AE115FD7184004869D0 /* CoreData.framework */; };
+		E2512BF01B6B28370007E332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F1AE615FD7184004869D0 /* InfoPlist.strings */; };
+		E2512BF11B6B28370007E332 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F1AF815FD7184004869D0 /* MasterViewController.xib */; };
+		E2512BF21B6B28370007E332 /* GERDefault~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5691518EE8897005C68ED /* GERDefault~iphone.png */; };
+		E2512BF31B6B28370007E332 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E24207761ACA207C00DB7678 /* 3.png */; };
+		E2512BF41B6B28370007E332 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F1B2E15FDBAD5004869D0 /* LoginViewController.xib */; };
+		E2512BF51B6B28370007E332 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F1CDE15FEF2EC004869D0 /* License.txt */; };
+		E2512BF61B6B28370007E332 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5935851613E403001547F3 /* camera.png */; };
+		E2512BF71B6B28370007E332 /* icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5690D18EE86FE005C68ED /* icon-1024.png */; };
+		E2512BF81B6B28370007E332 /* GERDefault@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5690818EE86FE005C68ED /* GERDefault@2x~iphone.png */; };
+		E2512BF91B6B28370007E332 /* GERDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E635DB18F3797500B39E83 /* GERDefault.png */; };
+		E2512BFA1B6B28370007E332 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E3AA3918F3C6CA0005BB9E /* icon@2x.png */; };
+		E2512BFB1B6B28370007E332 /* gps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C3BD203161AB5BB001FEABD /* gps@2x.png */; };
+		E2512BFC1B6B28370007E332 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C07042B16263F68001875F6 /* Default.png */; };
+		E2512BFD1B6B28370007E332 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E3AA3818F3C6CA0005BB9E /* icon.png */; };
+		E2512BFE1B6B28370007E332 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C07042D16263F71001875F6 /* Default@2x.png */; };
+		E2512BFF1B6B28370007E332 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C07042F16263F96001875F6 /* logo.png */; };
+		E2512C001B6B28370007E332 /* WeedSpotter~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5690718EE86FE005C68ED /* WeedSpotter~iphone.png */; };
+		E2512C011B6B28370007E332 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5690C18EE86FE005C68ED /* icon-114.png */; };
+		E2512C021B6B28370007E332 /* background-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5691718EE8915005C68ED /* background-640x960.png */; };
+		E2512C031B6B28370007E332 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C07043116263FF2001875F6 /* logo@2x.png */; };
+		E2512C041B6B28370007E332 /* image_not_available.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B8AEEF165EE2C700FD472C /* image_not_available.png */; };
+		E2512C051B6B28370007E332 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E635D918F3791B00B39E83 /* icon-120.png */; };
+		E2512C061B6B28370007E332 /* complete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B8AEFD165EE2C700FD472C /* complete@2x.png */; };
+		E2512C071B6B28370007E332 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5690B18EE86FE005C68ED /* icon-57.png */; };
+		E2512C081B6B28370007E332 /* incomplete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B8AEFF165EE2C700FD472C /* incomplete@2x.png */; };
+		E2512C091B6B28370007E332 /* background-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5691918EE894D005C68ED /* background-640x1136.png */; };
+		E2512C0A1B6B28370007E332 /* background-640x960_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E635DD18F37B0A00B39E83 /* background-640x960_copy.png */; };
+		E2512C0B1B6B28370007E332 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E24207681ACA1FEA00DB7678 /* 1.png */; };
+		E2512C0C1B6B28370007E332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11B8AF02165EE2C700FD472C /* InfoPlist.strings */; };
+		E2512C0D1B6B28370007E332 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B8AF04165EE2C700FD472C /* MasterViewController.xib */; };
+		E2512C0E1B6B28370007E332 /* background_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11C5990B167154D80037A7A1 /* background_image.jpg */; };
+		E2512C0F1B6B28370007E332 /* background-640x1008.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5690918EE86FE005C68ED /* background-640x1008.png */; };
+		E2512C101B6B28370007E332 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5690A18EE86FE005C68ED /* background.png */; };
+		E2512C111B6B28370007E332 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112A93B1169F9BFD009F060D /* MapViewController.xib */; };
+		E2512C121B6B28370007E332 /* camera_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E20BECF318EC212400BC7556 /* camera_3.png */; };
+		E2512C131B6B28370007E332 /* iOS App Icon 57 x 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D7EAF116CDF35B001192DB /* iOS App Icon 57 x 57.png */; };
+		E2512C141B6B28370007E332 /* iOS App Icon 114 x 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D7EAF316CDF363001192DB /* iOS App Icon 114 x 114.png */; };
+		E2512C151B6B28370007E332 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E8E57C170B8B8D0050AA8F /* Default-568h@2x.png */; };
+		E2512C161B6B28370007E332 /* GERIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110374531785384B001A0736 /* GERIcon@2x.png */; };
+		E2512C171B6B28370007E332 /* GERIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1103745517853859001A0736 /* GERIcon.png */; };
+		E2512C181B6B28370007E332 /* GERDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 1103745717853AAF001A0736 /* GERDefault.png */; };
+		E2512C191B6B28370007E332 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E635DF18F37B5F00B39E83 /* Images.xcassets */; };
+		E2512C1A1B6B28370007E332 /* GERBioTag_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1103745E17854EBA001A0736 /* GERBioTag_background.png */; };
+		E2512C1B1B6B28370007E332 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 118FDB5317CC638500BBC696 /* splashscreen.png */; };
+		E2512C1C1B6B28370007E332 /* GERDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BC8089178645FC0099F465 /* GERDefault@2x.png */; };
+		E2512C1D1B6B28370007E332 /* GERDefault-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BC8088178645FC0099F465 /* GERDefault-568h@2x.png */; };
+		E2512C1E1B6B28370007E332 /* GERBioTag_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1195ADD417DD8F2900C2F39A /* GERBioTag_background@2x.png */; };
+		E2512C1F1B6B28370007E332 /* GERBioTag_background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1195ADD517DD8F2900C2F39A /* GERBioTag_background-568h@2x.png */; };
 		E261A05F18DFA0E5004913AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1AE915FD7184004869D0 /* main.m */; };
 		E261A06018DFA0E5004913AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1AED15FD7184004869D0 /* AppDelegate.m */; };
 		E261A06118DFA0E5004913AE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F1AF315FD7184004869D0 /* MasterViewController.m */; };
@@ -928,6 +1051,8 @@
 		E212DF6C1AA68E2600A26E86 /* Superb Parrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Superb Parrot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24207681ACA1FEA00DB7678 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		E24207761ACA207C00DB7678 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E2512C241B6B28370007E332 /* RestoreAndRenew copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RestoreAndRenew copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2512C251B6B28370007E332 /* VictorianKoalaCount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VictorianKoalaCount-Info.plist"; path = "/Users/sat01a/All/sat01a_git/bdrs_ios/VictorianKoalaCount-Info.plist"; sourceTree = "<absolute>"; };
 		E261A0C518DFA0E5004913AE /* WeedSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeedSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E261A0C618DFA0E6004913AE /* GERBioTag copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GERBioTag copy2-Info.plist"; path = "/Users/sat01a/All/ALA/source/bitbucket/fielddata-mobile-ios/GERBioTag copy2-Info.plist"; sourceTree = "<absolute>"; };
 		E26D18551AC0DCAC002E2E1A /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
@@ -1057,6 +1182,21 @@
 				E212DF361AA68E2600A26E86 /* Foundation.framework in Frameworks */,
 				E212DF371AA68E2600A26E86 /* CoreGraphics.framework in Frameworks */,
 				E212DF381AA68E2600A26E86 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2512BE61B6B28370007E332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2512BE71B6B28370007E332 /* ImageIO.framework in Frameworks */,
+				E2512BE81B6B28370007E332 /* MapKit.framework in Frameworks */,
+				E2512BE91B6B28370007E332 /* CoreLocation.framework in Frameworks */,
+				E2512BEA1B6B28370007E332 /* AssetsLibrary.framework in Frameworks */,
+				E2512BEB1B6B28370007E332 /* UIKit.framework in Frameworks */,
+				E2512BEC1B6B28370007E332 /* Foundation.framework in Frameworks */,
+				E2512BED1B6B28370007E332 /* CoreGraphics.framework in Frameworks */,
+				E2512BEE1B6B28370007E332 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1246,6 +1386,7 @@
 				E2A2AD9B1A9E9059002E9F26 /* Warrumbungle.plist */,
 				E212DEF01AA68DB100A26E86 /* SuperbParrot-Info.plist */,
 				E2AA7A231B33B8AE007CEF29 /* RestoreAndRenew-Info.plist */,
+				E2512C251B6B28370007E332 /* VictorianKoalaCount-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1260,6 +1401,7 @@
 				E2A2AD9A1A9E9058002E9F26 /* Warrumbungle.app */,
 				E212DF6C1AA68E2600A26E86 /* Superb Parrot.app */,
 				E2AA7A221B33B8AE007CEF29 /* Warrumbungle copy.app */,
+				E2512C241B6B28370007E332 /* RestoreAndRenew copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1594,6 +1736,23 @@
 			productReference = E212DF6C1AA68E2600A26E86 /* Superb Parrot.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E2512BA11B6B28370007E332 /* VictorianKoalaCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2512C201B6B28370007E332 /* Build configuration list for PBXNativeTarget "VictorianKoalaCount" */;
+			buildPhases = (
+				E2512BA21B6B28370007E332 /* Sources */,
+				E2512BE61B6B28370007E332 /* Frameworks */,
+				E2512BEF1B6B28370007E332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VictorianKoalaCount;
+			productName = MobileFieldData;
+			productReference = E2512C241B6B28370007E332 /* RestoreAndRenew copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E261A05D18DFA0E5004913AE /* WeedSpotter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E261A0C118DFA0E5004913AE /* Build configuration list for PBXNativeTarget "WeedSpotter" */;
@@ -1687,6 +1846,7 @@
 				E2A2AD201A9E9058002E9F26 /* Warrumbungle */,
 				E212DEF11AA68E2600A26E86 /* SuperbParrort */,
 				E2AA799F1B33B8AE007CEF29 /* RestoreAndRenew */,
+				E2512BA11B6B28370007E332 /* VictorianKoalaCount */,
 			);
 		};
 /* End PBXProject section */
@@ -1861,6 +2021,61 @@
 				E212DF651AA68E2600A26E86 /* GERDefault-568h@2x.png in Resources */,
 				E212DF661AA68E2600A26E86 /* GERBioTag_background@2x.png in Resources */,
 				E212DF671AA68E2600A26E86 /* GERBioTag_background-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2512BEF1B6B28370007E332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2512BF01B6B28370007E332 /* InfoPlist.strings in Resources */,
+				E2512BF11B6B28370007E332 /* MasterViewController.xib in Resources */,
+				E2512BF21B6B28370007E332 /* GERDefault~iphone.png in Resources */,
+				E2512BF31B6B28370007E332 /* 3.png in Resources */,
+				E2512BF41B6B28370007E332 /* LoginViewController.xib in Resources */,
+				E2512BF51B6B28370007E332 /* License.txt in Resources */,
+				E2512BF61B6B28370007E332 /* camera.png in Resources */,
+				E2512BF71B6B28370007E332 /* icon-1024.png in Resources */,
+				E2512BF81B6B28370007E332 /* GERDefault@2x~iphone.png in Resources */,
+				E2512BF91B6B28370007E332 /* GERDefault.png in Resources */,
+				E2512BFA1B6B28370007E332 /* icon@2x.png in Resources */,
+				E2512BFB1B6B28370007E332 /* gps@2x.png in Resources */,
+				E2512BFC1B6B28370007E332 /* Default.png in Resources */,
+				E2512BFD1B6B28370007E332 /* icon.png in Resources */,
+				E2512BFE1B6B28370007E332 /* Default@2x.png in Resources */,
+				E2512BFF1B6B28370007E332 /* logo.png in Resources */,
+				E2512C001B6B28370007E332 /* WeedSpotter~iphone.png in Resources */,
+				E2512C011B6B28370007E332 /* icon-114.png in Resources */,
+				E2512C021B6B28370007E332 /* background-640x960.png in Resources */,
+				E2512C031B6B28370007E332 /* logo@2x.png in Resources */,
+				E2512C041B6B28370007E332 /* image_not_available.png in Resources */,
+				E2512C051B6B28370007E332 /* icon-120.png in Resources */,
+				E2512C061B6B28370007E332 /* complete@2x.png in Resources */,
+				E2512C071B6B28370007E332 /* icon-57.png in Resources */,
+				E2512C081B6B28370007E332 /* incomplete@2x.png in Resources */,
+				E2512C091B6B28370007E332 /* background-640x1136.png in Resources */,
+				E2512C0A1B6B28370007E332 /* background-640x960_copy.png in Resources */,
+				E2512C0B1B6B28370007E332 /* 1.png in Resources */,
+				E2512C0C1B6B28370007E332 /* InfoPlist.strings in Resources */,
+				E2512C0D1B6B28370007E332 /* MasterViewController.xib in Resources */,
+				E2512C0E1B6B28370007E332 /* background_image.jpg in Resources */,
+				E2512C0F1B6B28370007E332 /* background-640x1008.png in Resources */,
+				E2512C101B6B28370007E332 /* background.png in Resources */,
+				E2512C111B6B28370007E332 /* MapViewController.xib in Resources */,
+				E2512C121B6B28370007E332 /* camera_3.png in Resources */,
+				E2512C131B6B28370007E332 /* iOS App Icon 57 x 57.png in Resources */,
+				E2512C141B6B28370007E332 /* iOS App Icon 114 x 114.png in Resources */,
+				E2512C151B6B28370007E332 /* Default-568h@2x.png in Resources */,
+				E2512C161B6B28370007E332 /* GERIcon@2x.png in Resources */,
+				E2512C171B6B28370007E332 /* GERIcon.png in Resources */,
+				E2512C181B6B28370007E332 /* GERDefault.png in Resources */,
+				E2512C191B6B28370007E332 /* Images.xcassets in Resources */,
+				E2512C1A1B6B28370007E332 /* GERBioTag_background.png in Resources */,
+				E2512C1B1B6B28370007E332 /* splashscreen.png in Resources */,
+				E2512C1C1B6B28370007E332 /* GERDefault@2x.png in Resources */,
+				E2512C1D1B6B28370007E332 /* GERDefault-568h@2x.png in Resources */,
+				E2512C1E1B6B28370007E332 /* GERBioTag_background@2x.png in Resources */,
+				E2512C1F1B6B28370007E332 /* GERBioTag_background-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2298,6 +2513,80 @@
 				E212DF231AA68E2600A26E86 /* MarginLabel.m in Sources */,
 				E212DF2E1AA68E2600A26E86 /* MobileFieldData.xcdatamodeld in Sources */,
 				E212DF2F1AA68E2600A26E86 /* SurveyDownloadController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2512BA21B6B28370007E332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2512BA31B6B28370007E332 /* FD_Util.m in Sources */,
+				E2512BA41B6B28370007E332 /* Annotation.m in Sources */,
+				E2512BA51B6B28370007E332 /* main.m in Sources */,
+				E2512BA61B6B28370007E332 /* MKAnnotationView+WebCache.m in Sources */,
+				E2512BA71B6B28370007E332 /* NSData+ImageContentType.m in Sources */,
+				E2512BA81B6B28370007E332 /* SDImageCache.m in Sources */,
+				E2512BA91B6B28370007E332 /* SDWebImageCompat.m in Sources */,
+				E2512BAA1B6B28370007E332 /* SDWebImageDecoder.m in Sources */,
+				E2512BAB1B6B28370007E332 /* SDWebImageDownloader.m in Sources */,
+				E2512BAC1B6B28370007E332 /* SDWebImageDownloaderOperation.m in Sources */,
+				E2512BAD1B6B28370007E332 /* SDWebImageManager.m in Sources */,
+				E2512BAE1B6B28370007E332 /* SDWebImagePrefetcher.m in Sources */,
+				E2512BAF1B6B28370007E332 /* UIButton+WebCache.m in Sources */,
+				E2512BB01B6B28370007E332 /* UIImage+GIF.m in Sources */,
+				E2512BB11B6B28370007E332 /* UIImage+MultiFormat.m in Sources */,
+				E2512BB21B6B28370007E332 /* UIImage+WebP.m in Sources */,
+				E2512BB31B6B28370007E332 /* UIImageView+HighlightedWebCache.m in Sources */,
+				E2512BB41B6B28370007E332 /* UIImageView+WebCache.m in Sources */,
+				E2512BB51B6B28370007E332 /* UIView+WebCacheOperation.m in Sources */,
+				E2512BB61B6B28370007E332 /* AppDelegate.m in Sources */,
+				E2512BB71B6B28370007E332 /* MasterViewController.m in Sources */,
+				E2512BB81B6B28370007E332 /* LoginViewController.m in Sources */,
+				E2512BB91B6B28370007E332 /* RFRequest.m in Sources */,
+				E2512BBA1B6B28370007E332 /* RFResponse.m in Sources */,
+				E2512BBB1B6B28370007E332 /* RFService.m in Sources */,
+				E2512BBC1B6B28370007E332 /* Preferences.m in Sources */,
+				E2512BBD1B6B28370007E332 /* AlertService.m in Sources */,
+				E2512BBE1B6B28370007E332 /* FieldDataService.m in Sources */,
+				E2512BBF1B6B28370007E332 /* Species.m in Sources */,
+				E2512BC01B6B28370007E332 /* SpeciesListViewController.m in Sources */,
+				E2512BC11B6B28370007E332 /* Survey.m in Sources */,
+				E2512BC21B6B28370007E332 /* SurveyAttributeOption.m in Sources */,
+				E2512BC31B6B28370007E332 /* SurveyAttribute.m in Sources */,
+				E2512BC41B6B28370007E332 /* SurveyViewController.m in Sources */,
+				E2512BC51B6B28370007E332 /* TextInputCell.m in Sources */,
+				E2512BC61B6B28370007E332 /* UIAlertTableView.m in Sources */,
+				E2512BC71B6B28370007E332 /* IntegerInputCell.m in Sources */,
+				E2512BC81B6B28370007E332 /* SurveyInputCell.m in Sources */,
+				E2512BC91B6B28370007E332 /* MultiSelectCell.m in Sources */,
+				E2512BCA1B6B28370007E332 /* SingleSelectCell.m in Sources */,
+				E2512BCB1B6B28370007E332 /* ImageCell.m in Sources */,
+				E2512BCC1B6B28370007E332 /* SpeciesCell.m in Sources */,
+				E2512BCD1B6B28370007E332 /* LocationCell.m in Sources */,
+				E2512BCE1B6B28370007E332 /* MBProgressHUD.m in Sources */,
+				E2512BCF1B6B28370007E332 /* RecordAttribute.m in Sources */,
+				E2512BD01B6B28370007E332 /* SavedRecordsViewController.m in Sources */,
+				E2512BD11B6B28370007E332 /* Record.m in Sources */,
+				E2512BD21B6B28370007E332 /* UIImage+Alpha.m in Sources */,
+				E2512BD31B6B28370007E332 /* UIImage+Resize.m in Sources */,
+				E2512BD41B6B28370007E332 /* FileService.m in Sources */,
+				E2512BD51B6B28370007E332 /* UIImage+RoundedCorner.m in Sources */,
+				E2512BD61B6B28370007E332 /* NSData+Base64.m in Sources */,
+				E2512BD71B6B28370007E332 /* SelectionListViewController.m in Sources */,
+				E2512BD81B6B28370007E332 /* SingleSelectListCell.m in Sources */,
+				E2512BD91B6B28370007E332 /* MapViewController.m in Sources */,
+				E2512BDA1B6B28370007E332 /* MapAnnotation.m in Sources */,
+				E2512BDB1B6B28370007E332 /* DateCell.m in Sources */,
+				E2512BDC1B6B28370007E332 /* SpeciesTableCell.m in Sources */,
+				E2512BDD1B6B28370007E332 /* SpeciesSelectionViewController.m in Sources */,
+				E2512BDE1B6B28370007E332 /* LabelledSpeciesCell.m in Sources */,
+				E2512BDF1B6B28370007E332 /* RecordValidator.m in Sources */,
+				E2512BE01B6B28370007E332 /* ValidationResult.m in Sources */,
+				E2512BE11B6B28370007E332 /* StandaloneSpeciesViewController.m in Sources */,
+				E2512BE21B6B28370007E332 /* SpeciesGroup.m in Sources */,
+				E2512BE31B6B28370007E332 /* MarginLabel.m in Sources */,
+				E2512BE41B6B28370007E332 /* MobileFieldData.xcdatamodeld in Sources */,
+				E2512BE51B6B28370007E332 /* SurveyDownloadController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3010,6 +3299,91 @@
 			};
 			name = AppStore;
 		};
+		E2512C211B6B28370007E332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = "$(SRCROOT)/VictorianKoalaCount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "RestoreAndRenew copy";
+				PROVISIONING_PROFILE = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2512C221B6B28370007E332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/VictorianKoalaCount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "RestoreAndRenew copy";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2512C231B6B28370007E332 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/VictorianKoalaCount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "RestoreAndRenew copy";
+				PROVISIONING_PROFILE = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
 		E261A0C218DFA0E5004913AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3321,6 +3695,16 @@
 				E212DF691AA68E2600A26E86 /* Debug */,
 				E212DF6A1AA68E2600A26E86 /* Release */,
 				E212DF6B1AA68E2600A26E86 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2512C201B6B28370007E332 /* Build configuration list for PBXNativeTarget "VictorianKoalaCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2512C211B6B28370007E332 /* Debug */,
+				E2512C221B6B28370007E332 /* Release */,
+				E2512C231B6B28370007E332 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
