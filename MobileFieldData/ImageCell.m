@@ -32,7 +32,7 @@
         [cameraImage setImage:cellImage];
 
         
-        UIImage *cameraBtn = [UIImage imageNamed:@"1.png"];
+        UIImage *cameraBtn = [UIImage imageNamed:@"camera.png"];
         startCamera = [UIButton buttonWithType:UIButtonTypeCustom];
         [startCamera addTarget:self action:@selector(showCameraUI:) forControlEvents:UIControlEventTouchUpInside];
         NSInteger width = 48;
@@ -40,13 +40,15 @@
         [startCamera setImage:cameraBtn forState:UIControlStateNormal];
         [self.contentView addSubview:startCamera];
         
-        UIImage *galleryBtn = [UIImage imageNamed:@"3.png"];
-        photoLibrary = [UIButton buttonWithType:UIButtonTypeCustom];
-        [photoLibrary addTarget:self action:@selector(showPhotoLibraryUI:) forControlEvents:UIControlEventTouchUpInside];
-        photoLibrary.frame = CGRectMake(self.bounds.size.width-30-100, 30 + SURVEY_HEIGHT_OFFSET, 48, 48);
-        [photoLibrary setImage:galleryBtn forState:UIControlStateNormal];
-        [self.contentView addSubview:photoLibrary];
 
+        if([FD_Util enablePhotoGallery]){
+            UIImage *galleryBtn = [UIImage imageNamed:@"3.png"];
+            photoLibrary = [UIButton buttonWithType:UIButtonTypeCustom];
+            [photoLibrary addTarget:self action:@selector(showPhotoLibraryUI:) forControlEvents:UIControlEventTouchUpInside];
+            photoLibrary.frame = CGRectMake(self.bounds.size.width-30-100, 30 + SURVEY_HEIGHT_OFFSET, 48, 48);
+            [photoLibrary setImage:galleryBtn forState:UIControlStateNormal];
+            [self.contentView addSubview:photoLibrary];
+        }
 
     }
     return self;
@@ -70,7 +72,7 @@
         
         
         
-        UIImage *cameraBtn = [UIImage imageNamed:@"1.png"];
+        UIImage *cameraBtn = [UIImage imageNamed:@"camera.png"];
         startCamera = [UIButton buttonWithType:UIButtonTypeCustom];
         [startCamera addTarget:self action:@selector(showCameraUI:) forControlEvents:UIControlEventTouchUpInside];
         NSInteger width = 48;
@@ -78,13 +80,14 @@
         [startCamera setImage:cameraBtn forState:UIControlStateNormal];
         [self.contentView addSubview:startCamera];
         
-        UIImage *galleryBtn = [UIImage imageNamed:@"3.png"];
-        photoLibrary = [UIButton buttonWithType:UIButtonTypeCustom];
-        [photoLibrary addTarget:self action:@selector(showPhotoLibraryUI:) forControlEvents:UIControlEventTouchUpInside];
-        photoLibrary.frame = CGRectMake(self.bounds.size.width-30-100, 30, 48, 48);
-        [photoLibrary setImage:galleryBtn forState:UIControlStateNormal];
-        [self.contentView addSubview:photoLibrary];
-
+        if([FD_Util enablePhotoGallery]){
+            UIImage *galleryBtn = [UIImage imageNamed:@"3.png"];
+            photoLibrary = [UIButton buttonWithType:UIButtonTypeCustom];
+            [photoLibrary addTarget:self action:@selector(showPhotoLibraryUI:) forControlEvents:UIControlEventTouchUpInside];
+            photoLibrary.frame = CGRectMake(self.bounds.size.width-30-100, 30, 48, 48);
+            [photoLibrary setImage:galleryBtn forState:UIControlStateNormal];
+            [self.contentView addSubview:photoLibrary];
+        }
         
         // Track user location.
         locationManager = [[CLLocationManager alloc] init];
@@ -143,7 +146,9 @@
 }
 
 - (IBAction)showPhotoLibraryUI:(id)sender {
-    [self photoLibraryFromViewController: parentController usingDelegate: self];
+    if([FD_Util enablePhotoGallery]){
+        [self photoLibraryFromViewController: parentController usingDelegate: self];
+    }
 }
 
 - (BOOL) startCameraControllerFromViewController: (UIViewController*) controller

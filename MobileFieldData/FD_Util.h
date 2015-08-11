@@ -11,4 +11,5 @@
 #define SURVEY_HEIGHT_OFFSET 0
 @interface FD_Util : NSObject
 + (UIColor *) getBackgroundColor;
++ (BOOL) enablePhotoGallery;
 @end

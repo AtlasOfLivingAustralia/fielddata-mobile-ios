@@ -36,6 +36,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>01</string>
+	<key>Enable_Photo_Library</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>

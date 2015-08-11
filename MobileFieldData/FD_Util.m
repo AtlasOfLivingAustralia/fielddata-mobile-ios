@@ -23,4 +23,9 @@
     return color;
 }
 
++ (BOOL) enablePhotoGallery
+{
+    NSNumber * n = [[NSBundle mainBundle] objectForInfoDictionaryKey: @"Enable_Photo_Library"];
+    return [n boolValue];
+}
 @end
