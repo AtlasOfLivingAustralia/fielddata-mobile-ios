@@ -20,7 +20,7 @@
 
 @implementation LoginViewController
 
-@synthesize username, password, appName,submit,cancelButton, version;
+@synthesize username, password, appName,submit,cancelButton, version, logo;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,7 +38,7 @@
 {
     [super viewDidLoad];
     [self.appName setText:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"]];
-    appName.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:30];
+    appName.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:25];
     
     NSString * ver = [[NSBundle mainBundle] objectForInfoDictionaryKey: @"CFBundleShortVersionString"];
     NSString * build = [[NSBundle mainBundle] objectForInfoDictionaryKey: (NSString *)kCFBundleVersionKey];
@@ -56,6 +56,9 @@
                                       message:@"Changing the logged in user will delete any survey recordings that have not yet been uploaded."];
         [self.cancelButton setTitle:@" Cancel" forState:UIControlStateNormal];
     }
+    
+    UIImage *appIcon = [UIImage imageNamed: [[[[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIcons"] objectForKey:@"CFBundlePrimaryIcon"] objectForKey:@"CFBundleIconFiles"]  objectAtIndex:0]];
+    [self.logo setImage:appIcon];
   
 }
 

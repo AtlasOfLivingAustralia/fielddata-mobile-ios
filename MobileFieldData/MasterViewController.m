@@ -150,7 +150,7 @@
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     
     if(section == 0) {
-        return @"Available Surveys";
+        return @"Surveys";
     } else {
         return @"";
     }
@@ -164,7 +164,7 @@
     [headerView addSubview:labelHeader];
 
     if(section == 0)
-        labelHeader.text = @"Available Surveys";
+        labelHeader.text = @"Surveys";
     
     return headerView;
 }

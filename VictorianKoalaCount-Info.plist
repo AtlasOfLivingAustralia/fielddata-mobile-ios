@@ -7,11 +7,11 @@
 	<key>Background Image</key>
 	<string>GERDefault~iphone.png</string>
 	<key>Background_Blue</key>
-	<string>142</string>
+	<string>102</string>
 	<key>Background_Green</key>
-	<string>131</string>
+	<string>153</string>
 	<key>Background_Red</key>
-	<string>22</string>
+	<string>51</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -23,7 +23,7 @@
 	<key>CFBundleIcons~ipad</key>
 	<dict/>
 	<key>CFBundleIdentifier</key>
-	<string>au.org.ala.vickoalacont</string>
+	<string>au.org.ala.vickoalacount</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

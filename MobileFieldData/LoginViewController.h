@@ -27,6 +27,7 @@
 @property (nonatomic, retain) IBOutlet UITextField *password;
 @property (nonatomic, retain) IBOutlet UIButton *cancelButton;
 @property (nonatomic, retain) IBOutlet UIButton *submit;
+@property (nonatomic, retain) IBOutlet UIImageView *logo;
 
 - (IBAction)onClickLogin:(id)sender;
 - (IBAction)onClickCancel:(id)sender;

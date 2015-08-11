@@ -1815,6 +1815,9 @@
 					5C0F1B0215FD7184004869D0 = {
 						TestTargetID = 5C0F1AD615FD7184004869D0;
 					};
+					E2512BA11B6B28370007E332 = {
+						DevelopmentTeam = VS75428PD6;
+					};
 					E261A05D18DFA0E5004913AE = {
 						DevelopmentTeam = VS75428PD6;
 					};
@@ -3304,10 +3307,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "VictorianKoalaCount-AppIcon";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "VictorianKoalaCount-LaunchImage";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -3320,8 +3323,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "RestoreAndRenew copy";
-				PROVISIONING_PROFILE = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				PROVISIONING_PROFILE = "bc617e87-2b80-4aa0-b836-893c463115fd";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "bc617e87-2b80-4aa0-b836-893c463115fd";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -3332,11 +3335,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "VictorianKoalaCount-AppIcon";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "VictorianKoalaCount-LaunchImage";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -3348,9 +3351,9 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "RestoreAndRenew copy";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				PROVISIONING_PROFILE = "bc617e87-2b80-4aa0-b836-893c463115fd";
+				"PROVISIONING_PROFILE[sdk=*]" = "bc617e87-2b80-4aa0-b836-893c463115fd";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "bc617e87-2b80-4aa0-b836-893c463115fd";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -3362,10 +3365,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = "RestoreAndRenew-AppIcon";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "RestoreAndRenew-LaunchImage";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "VictorianKoalaCount-AppIcon";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "VictorianKoalaCount-LaunchImage";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: THE ROYAL BOTANIC GARDENS AND DOMAIN TRUST (6TX2SXNQ8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sathish Babu Sathya moorthy (VS75428PD6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileFieldData/MobileFieldData-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
@@ -3377,8 +3380,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "RestoreAndRenew copy";
-				PROVISIONING_PROFILE = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc75b7af-9f7d-4697-933a-5d262fe8bd15";
+				PROVISIONING_PROFILE = "bc617e87-2b80-4aa0-b836-893c463115fd";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "bc617e87-2b80-4aa0-b836-893c463115fd";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
